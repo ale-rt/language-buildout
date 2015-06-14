@@ -3,17 +3,16 @@
   "description": "Buildout language package for atom",
   "repository": "https://github.com/ale-rt/language-buildout",
   "keywords": [
-      "atom",
-      "buildout",
-      "grammar",
-      "language",
-      "syntax"
+    "atom",
+    "buildout",
+    "grammar",
+    "language",
+    "syntax"
   ],
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "dependencies": {
-  },
-  "version": "0.0.0"
+  "dependencies": {},
+  "version": "0.1.0"
 }
