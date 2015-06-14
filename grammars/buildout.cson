@@ -1,0 +1,33 @@
+'fileTypes': [
+  '.cfg'
+]
+'name': 'Buildout'
+
+'patterns': [
+
+  # Comments
+  {
+    'match': '(#).*$\\n?'
+    'name': 'comment'
+  }
+
+  # Sections
+  {
+    'match': '\\[.*\\]'
+    'name': 'entity'
+  }
+
+  # interpolation
+  {
+    'match': '^(.*)?='
+    'name': 'keyword'
+  }
+
+  # interpolation
+  {
+    'match': '\\${.*\\}'
+    'name': 'variable'
+  }
+]
+
+'scopeName': 'source.buildout'

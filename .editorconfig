@@ -1,0 +1,11 @@
+[*.xml]
+indent_size = 2
+
+[*.css]
+indent_size = 2
+
+[*.js]
+indent_size = 2
+
+[{*.coffee,*.cson,*.less,*.html,*.dtml,*.pt,*.zcml}]
+indent_size = 2
